@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio-/static/css/main.f2ca5eed.css",
+    "main.js": "/portfolio-/static/js/main.4e585465.js",
+    "static/js/787.5fdf9346.chunk.js": "/portfolio-/static/js/787.5fdf9346.chunk.js",
+    "static/media/pizzas.png": "/portfolio-/static/media/pizzas.58e96f37ef9a44eaf975.png",
+    "static/media/pizzas_1.png": "/portfolio-/static/media/pizzas_1.204e5f81dc3ae6ea7ed4.png",
+    "static/media/scialN_1.png": "/portfolio-/static/media/scialN_1.e9809eddc60024cd6459.png",
+    "static/media/todos.png": "/portfolio-/static/media/todos.a6a14e05782d98e6fbac.png",
+    "static/media/mega-domki.png": "/portfolio-/static/media/mega-domki.7339c7a7409e306e9b6d.png",
+    "static/media/scialN.png": "/portfolio-/static/media/scialN.95e9f5cda31c18740b25.png",
+    "static/media/photo.png": "/portfolio-/static/media/photo.71f9648f6308ee75ac5c.png",
+    "static/media/jobPageImage.jpg": "/portfolio-/static/media/jobPageImage.52bf9a73bf2818f7af1c.jpg",
+    "static/media/cards_1.png": "/portfolio-/static/media/cards_1.f705ed093c85e7e0e313.png",
+    "static/media/cards.png": "/portfolio-/static/media/cards.cc0acd2ef0423bed2105.png",
+    "static/media/cards_3.png": "/portfolio-/static/media/cards_3.1cedfe299e8761ca01b2.png",
+    "static/media/pizzas_2.png": "/portfolio-/static/media/pizzas_2.f8ae6774301ce6850677.png",
+    "static/media/react.png": "/portfolio-/static/media/react.4127b36258b5e9dc8f88.png",
+    "static/media/cards_2.png": "/portfolio-/static/media/cards_2.0dbc6903738ea4ec648c.png",
+    "static/media/whatsapp.png": "/portfolio-/static/media/whatsapp.c0139bed7dc4beda41a1.png",
+    "static/media/html.png": "/portfolio-/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/portfolio-/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/instagram.png": "/portfolio-/static/media/instagram.215fa341f2724204364a.png",
+    "static/media/typescript.png": "/portfolio-/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/telegram.png": "/portfolio-/static/media/telegram.20a60b580e642d0a24f1.png",
+    "static/media/js.png": "/portfolio-/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/redux.svg": "/portfolio-/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "index.html": "/portfolio-/index.html",
+    "main.f2ca5eed.css.map": "/portfolio-/static/css/main.f2ca5eed.css.map",
+    "main.4e585465.js.map": "/portfolio-/static/js/main.4e585465.js.map",
+    "787.5fdf9346.chunk.js.map": "/portfolio-/static/js/787.5fdf9346.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2ca5eed.css",
+    "static/js/main.4e585465.js"
+  ]
+}
