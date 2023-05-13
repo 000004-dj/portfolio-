@@ -1,0 +1,17 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 100px auto;
+  flex-wrap: wrap;
+  width: 100%;
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
+
+

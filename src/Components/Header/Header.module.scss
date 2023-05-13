@@ -1,0 +1,42 @@
+.Header {
+  height: 100px;
+  background: #d9d3c8;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  position: relative;
+  top: 0;
+  border-bottom: black solid 1px;
+  z-index: 0;
+
+  .burgerIconContainer {
+    z-index: 99;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    .burgerIcon {
+      display: none;
+      z-index: 99;
+      width: 35px;
+      @media (max-width: 760px) {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 760px) {
+    height: 40px;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+  }
+}
+
+
+.navMobileContainer{
+
+}
+

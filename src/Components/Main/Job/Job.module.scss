@@ -1,0 +1,34 @@
+.Job{
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: black solid 1px;
+    .jobContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+        @media (max-width: 570px) {
+                flex-direction: column;
+                margin-bottom: 40px;
+        }
+    }
+    .imageBlock {
+        height: 600px;
+        width: 100%;
+        border-radius: 30px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+
+

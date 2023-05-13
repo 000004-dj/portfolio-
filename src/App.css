@@ -1,0 +1,41 @@
+.App {
+
+}
+
+body {
+    background: #d9d3c8;
+
+}
+
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    font-style: normal;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input {
+    height: 65px;
+}
+
+.burgerIconContainer {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 999 !important;
+}
+
+
+.error {
+    border: red 2px solid !important;
+}
+
+
+img{
+    width: 50px;
+}
+

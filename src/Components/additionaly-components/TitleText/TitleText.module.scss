@@ -1,0 +1,47 @@
+.lineDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    .aboutMeTitle {
+        display: block;
+        text-align: left;
+        flex: 0 1 auto;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        letter-spacing: -0.6px;
+        line-height: 1.2;
+        font-weight: 300;
+        font-size: 50px;
+        @media (max-width: 760px) {
+            font-size: 25px;
+        }
+        @media (max-width: 300px) {
+            font-size: 18px;
+        }
+    }
+    .smallTitle{
+        display: block;
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        letter-spacing: -0.6px;
+        line-height: 1.2;
+        font-weight: 300;
+        font-size: 25px
+    }
+    @media (max-width: 760px) {
+        height: 100px;
+    }
+}
+
+
+
+
+
+
+
+
