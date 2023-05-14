@@ -9,6 +9,9 @@ export const Header = () => {
     const mobileMenuOn = () => {
         setActiveMode(!activeMode)
     }
+    const isClosed = () =>{
+            setActiveMode(false)
+    }
 
     const burgerIcon = () => {
         return (
@@ -25,7 +28,7 @@ export const Header = () => {
             <>
                 {burgerIcon()}
             <div className={s.navMobileContainer}>
-                <NavBarMobile mobileMenuOn={mobileMenuOn}/>
+                <NavBarMobile mobileMenuOn={mobileMenuOn} onClickCloseMenu={isClosed}/>
             </div>
             </>
         )

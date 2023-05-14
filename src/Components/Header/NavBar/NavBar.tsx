@@ -7,7 +7,6 @@ export const NavBar = () => {
             <a href={"#Home"}>Home</a>
             <a href={"#Skills"}>Skills</a>
             <a href={"#Portfolio"}>Portfolio</a>
-
             <a href={"#Contact"}>Contact</a>
         </div>
     )
