@@ -17,7 +17,7 @@ export const SkillPage = () => {
     }
 
     return (
-        <div className={s.SkillPage} id={"skills"}>
+        <div className={s.SkillPage} id={"Skills"}>
             <TitleText
                 title={"What i can"}
                 smallTitle={"SKILLS"}
