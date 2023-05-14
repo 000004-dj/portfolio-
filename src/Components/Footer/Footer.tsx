@@ -31,10 +31,7 @@ export const Footer = () => {
                         <img className="svg"
                              src={`${telegram}`}  alt=""/></a>
                     </li>
-                    {/*<li><a href="#">*/}
-                    {/*    <img className="svg"*/}
-                    {/*         src={`${facebook}`}  alt=""/></a>*/}
-                    {/*</li>*/}
+
                 </ul>
             </div>
 
