@@ -17,9 +17,9 @@ export const projectsData = [
         title: "To-Do List",
         description: "Project for the distribution of tasks",
         projectId: "0_1",
-        projectDescription: "Project for the distribution of tasks, various kinds of lists or notes (React, Redux, TypeScript)",
+        projectDescription: "Implementation of an application for creating task lists. It is possible to create various tasks, mark completed ones, sort them as they are done, change delete (CRUD). Creating customs universal components,  use React(HOOKs,), Redux, TypeScript, Unit testing, Material UI, Storybook, snapshot testing, RESTful (autorithation),  AXIOS, UUID,  FLUX",
         photos: [todos],
-        projectURL: "https://github.com/000004-dj/todos"
+        projectURL: "https://github.com/000004-dj/task-manager"
     },
     {
         image: socialN_1,
@@ -35,7 +35,7 @@ export const projectsData = [
         title: "CARDS",
         description: "A project dedicated to the possibility of self-learning",
         projectId: "0_3",
-        projectDescription: "A project dedicated to the possibility of self-learning. You can create your own training program or use the ready-made program of other participants(React, Redux, TypeScript)",
+        projectDescription: "Here you can create lists of questions that you want to practice, you can evaluate your knowledge. Create private and public decks of questions, as well as practice with other people's decks. The functions of sorting, searching, CRUD operations with decks and cards, authorization, and so on have been implemented. (TypeScript, React, Redux)",
         photos: [cards_1, cards_2, cards_3, cards_4],
         projectURL: "https://github.com/Leskevich/cards"
     },
@@ -44,7 +44,7 @@ export const projectsData = [
         title: "pizzas",
         description: "Similarity to a mini online store",
         projectId: "0_4",
-        projectDescription: "Similarity to a mini online store selling pizza, with the ability to add products to the cart, customize the product, sort products, remove from the basket, and so on(React, Redux)",
+        projectDescription: "Online store for a pizzeria. With the functions of adding goods to the basket, sorting, searching by goods. Written with React.js(with Hooks), Redux, Redux-thunk,  HTML, SCSS. Development of user interface components.",
         photos: [pizzas_1, pizzas_2, pizzas_3],
         projectURL: "https://github.com/Leskevich/cards"
     },
