@@ -30,7 +30,7 @@ export const ProjectPage = (props: PropsType) => {
                 }
             </div>
             <div className={s.infoBlock}>
-                <span>
+                <span style={{display: "block"}}>
                     {projectDescription}
                 </span>
                 <div>
