@@ -17,13 +17,14 @@ type PropsType = {
 
 export const ProjectPage = (props: PropsType) => {
     const {title, photos, projectDescription, projectURL}: ProjectType = props.project
+    console.log(props.project)
     return(
         <div className={s.projectPageBlock}>
             <p className={s.projectName}>{title}</p>
             <div className={s.images}>
                 {
                     photos?.map((i: string | undefined, index: React.Key | null | undefined) => {
-                     return <div className={s.itemImage} key={index}>
+                     return <div className={s.itemImage} key={title}>
                          <img src={i} alt="image not found"/>
                      </div>
                     })
@@ -34,7 +35,7 @@ export const ProjectPage = (props: PropsType) => {
                     {projectDescription}
                 </span>
                 <div>
-                    <Link to={projectURL} className={s.link}>Go to GitHub</Link>
+                    <Link to={projectURL} className={s.link}>Go to Project</Link>
                 </div>
 
 

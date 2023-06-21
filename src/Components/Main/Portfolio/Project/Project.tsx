@@ -25,16 +25,14 @@ export const Project = () => {
         const projectId = sessionStorage.getItem('projectId')
         if(projectId === "0_1"){
             return projectsData[0]
-        }else if(projectId === "0_2"){
-            return projectsData[1]
         }else if(projectId === "0_3"){
-            return projectsData[2]
+            return projectsData[1]
         }else if(projectId === "0_4"){
-            return projectsData[3]
+            return projectsData[2]
         }else if(projectId === "0_5"){
-            return projectsData[4]
+            return projectsData[3]
         }else if(projectId === "0_6"){
-            return projectsData[5]
+            return projectsData[4]
         }
     }
 
