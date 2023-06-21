@@ -1,14 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio-/static/css/main.6e91487e.css",
-    "main.js": "/portfolio-/static/js/main.8c7a71f7.js",
+    "main.js": "/portfolio-/static/js/main.57c6326c.js",
     "static/js/787.5fdf9346.chunk.js": "/portfolio-/static/js/787.5fdf9346.chunk.js",
     "static/media/pizzas.png": "/portfolio-/static/media/pizzas.58e96f37ef9a44eaf975.png",
     "static/media/pizzas_1.png": "/portfolio-/static/media/pizzas_1.204e5f81dc3ae6ea7ed4.png",
-    "static/media/scialN_1.png": "/portfolio-/static/media/scialN_1.e9809eddc60024cd6459.png",
     "static/media/todos.png": "/portfolio-/static/media/todos.a6a14e05782d98e6fbac.png",
     "static/media/mega-domki.png": "/portfolio-/static/media/mega-domki.7339c7a7409e306e9b6d.png",
-    "static/media/scialN.png": "/portfolio-/static/media/scialN.95e9f5cda31c18740b25.png",
     "static/media/photo.png": "/portfolio-/static/media/photo.71f9648f6308ee75ac5c.png",
     "static/media/jobPageImage.jpg": "/portfolio-/static/media/jobPageImage.52bf9a73bf2818f7af1c.jpg",
     "static/media/cards_1.png": "/portfolio-/static/media/cards_1.f705ed093c85e7e0e313.png",
@@ -27,11 +25,11 @@
     "static/media/redux.svg": "/portfolio-/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "index.html": "/portfolio-/index.html",
     "main.6e91487e.css.map": "/portfolio-/static/css/main.6e91487e.css.map",
-    "main.8c7a71f7.js.map": "/portfolio-/static/js/main.8c7a71f7.js.map",
+    "main.57c6326c.js.map": "/portfolio-/static/js/main.57c6326c.js.map",
     "787.5fdf9346.chunk.js.map": "/portfolio-/static/js/787.5fdf9346.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e91487e.css",
-    "static/js/main.8c7a71f7.js"
+    "static/js/main.57c6326c.js"
   ]
 }
