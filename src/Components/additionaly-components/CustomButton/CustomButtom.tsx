@@ -20,7 +20,7 @@ const linkStyle = {
 
 export const CustomButton = (props: PropsType) => {
     const goToLink = () => {
-        window.location.href = "https://drive.google.com/file/d/1ibuAdDG3wWmAhE8Qnh7Ip1HuQO9-2OfG/view?usp=sharing"
+        window.location.href = "https://drive.google.com/file/d/1gDmQG2yxg0U_ekMY-Yn7Wd1qZb8YqnkT/view?usp=sharing"
     }
     const customButton = () => {
         return <button
