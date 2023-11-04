@@ -11,6 +11,7 @@
     white-space: nowrap;
     text-transform: uppercase;
     font-weight: 500;
+    transition:box-shadow 0.4s ;
 
     &:hover {
         box-shadow: black 1px 1px 5px;
@@ -25,14 +26,5 @@
         padding: 10px 30px;
     }
 }
-
-
-//.buttonIcon {
-//    display: inline-block;
-//    margin: 0;
-//    position: relative;
-//    top: 3px;
-//    font-size: 20px;
-//}
 
 

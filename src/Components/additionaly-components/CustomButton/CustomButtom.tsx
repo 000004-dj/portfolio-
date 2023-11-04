@@ -28,7 +28,7 @@ export const CustomButton = (props: PropsType) => {
             onClick={props.link ? goToLink : () => {}}
             style={props.design === "dark" ? {background: "black", color: "white"} : {}}
         >
-            {props.buttonTitle} <img src={props.buttonIcon} style={{width: "20px"}} alt=""/>
+            {props.buttonTitle} <img src={props.buttonIcon} style={{width: "20px", margin: "auto 0"}} alt=""/>
 
         </button>
 

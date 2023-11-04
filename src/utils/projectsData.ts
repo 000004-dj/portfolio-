@@ -1,6 +1,4 @@
 import todos from 'assets/images/projectsPhotos/todos.png'
-import socialN_1 from 'assets/images/projectsPhotos/scialN.png'
-import socialN_2 from 'assets/images/projectsPhotos/scialN_1.png'
 import cards_1 from 'assets/images/projectsPhotos/cards.png'
 import cards_2 from 'assets/images/projectsPhotos/cards_1.png'
 import cards_3 from 'assets/images/projectsPhotos/cards_2.png'
@@ -9,6 +7,12 @@ import pizzas_1 from 'assets/images/projectsPhotos/pizzas.png'
 import pizzas_2 from 'assets/images/projectsPhotos/pizzas_1.png'
 import pizzas_3 from 'assets/images/projectsPhotos/pizzas_2.png'
 import houses from 'assets/images/projectsPhotos/mega-domki.png'
+import urzad from 'assets/images/projectsPhotos/urzad.png'
+import SNProfile from 'assets/images/projectsPhotos/SN-profile.png'
+import SNAuth from 'assets/images/projectsPhotos/SN-auth.png'
+import SNHome from 'assets/images/projectsPhotos/SN-home.png'
+import SNSeanses from 'assets/images/projectsPhotos/SN-seanses.png'
+
 
 
 export const projectsData = [
@@ -21,15 +25,6 @@ export const projectsData = [
         photos: [todos],
         projectURL: "https://000004-dj.github.io/task-manager/#/"
     },
-    // {
-    //     image: socialN_1,
-    //     title: "Social Media",
-    //     description: "social network for communication",
-    //     projectId: "0_2",
-    //     projectDescription: "social network for communication, finding friends, positioning yourself in online society(React, Redux, TypeScript)",
-    //     photos: [socialN_1, socialN_2],
-    //     projectURL: "https://github.com/000004-dj/social"
-    // },
     {
         image: cards_1,
         title: "CARDS",
@@ -57,6 +52,24 @@ export const projectsData = [
         photos: [houses],
         projectURL: "https://github.com/000004-dj/project-mega-domki"
     },
+    {
+        image: urzad,
+        title: "urzad",
+        description: "Example of a city administration page",
+        projectId: "0_6",
+        projectDescription: "Example of a city administration page written using pure javascript and bootstrap",
+        photos: [urzad],
+        projectURL: "https://000004-dj.github.io/urzad/"
+    },
+    {
+        image: SNProfile,
+        title: "Social network",
+        description: "A social network with functionality like Instagram",
+        projectId: "0_7",
+        projectDescription: "a social network with functionality like Instagram, with the ability to create your profile, create and share posts, buy subscriptions, communicate, and so on (under implementation)",
+        photos: [SNProfile, SNAuth, SNSeanses, SNHome],
+        projectURL: "https://inctagram.vercel.app/"
+    }
 
 ]
 
