@@ -4,6 +4,8 @@ import {Header} from "Components/Header/Header";
 import s from "./App.module.css"
 import {Main} from "Components/Main/Main";
 import {Footer} from "Components/Footer/Footer";
+import {ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
     const [showBox, setShowBox] = useState(false);
@@ -31,6 +33,18 @@ function App() {
             <hr/>
             <Main/>
             <Footer/>
+            <ToastContainer
+                position="top-right"
+                autoClose={5000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+            />
         </div>
     )
 }

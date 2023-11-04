@@ -29,7 +29,7 @@ export const projectsData = [
         image: cards_1,
         title: "CARDS",
         description: "A project dedicated to the possibility of self-learning",
-        projectId: "0_3",
+        projectId: "0_2",
         projectDescription: "Here you can create lists of questions that you want to practice, you can evaluate your knowledge. Create private and public decks of questions, as well as practice with other people's decks. The functions of sorting, searching, CRUD operations with decks and cards, authorization, and so on have been implemented. (TypeScript, React, Redux)",
         photos: [cards_1, cards_2, cards_3, cards_4],
         projectURL: "https://leskevich.github.io/cards/#/login"
@@ -38,7 +38,7 @@ export const projectsData = [
         image: pizzas_1,
         title: "pizzas",
         description: "Similarity to a mini online store",
-        projectId: "0_4",
+        projectId: "0_3",
         projectDescription: "Online store for a pizzeria. With the functions of adding goods to the basket, sorting, searching by goods. Written with React.js(with Hooks), Redux, Redux-thunk,  HTML, SCSS. Development of user interface components.",
         photos: [pizzas_1, pizzas_2, pizzas_3],
         projectURL: "https://github.com/000004-dj/mr-pizza"
@@ -47,7 +47,7 @@ export const projectsData = [
         image: houses,
         title: "Mega-houses",
         description: "A project for selling pet houses",
-        projectId: "0_5",
+        projectId: "0_4",
         projectDescription: "A project for selling pet houses with the ability to add products, sort, search by name.(Vue.js, Vuex)",
         photos: [houses],
         projectURL: "https://github.com/000004-dj/project-mega-domki"
@@ -56,19 +56,19 @@ export const projectsData = [
         image: urzad,
         title: "urzad",
         description: "Example of a city administration page",
-        projectId: "0_6",
+        projectId: "0_5",
         projectDescription: "Example of a city administration page written using pure javascript and bootstrap",
         photos: [urzad],
         projectURL: "https://000004-dj.github.io/urzad/"
     },
     {
         image: SNProfile,
-        title: "Social network",
+        title: "Social Network",
         description: "A social network with functionality like Instagram",
-        projectId: "0_7",
+        projectId: "0_6",
         projectDescription: "a social network with functionality like Instagram, with the ability to create your profile, create and share posts, buy subscriptions, communicate, and so on (under implementation)",
-        photos: [SNProfile, SNAuth, SNSeanses, SNHome],
-        projectURL: "https://inctagram.vercel.app/"
+        photos: [SNProfile, SNAuth, SNSeanses, SNHome ],
+        projectURL: "https://inctagram.vercel.app"
     }
 
 ]

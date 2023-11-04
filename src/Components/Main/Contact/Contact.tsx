@@ -4,6 +4,7 @@ import {TitleText} from "../../additionaly-components/TitleText/TitleText";
 import {CustomButton} from "../../additionaly-components/CustomButton/CustomButtom";
 import {useForm} from "react-hook-form";
 import emailjs from "emailjs-com"
+import {toast} from "react-toastify";
 const Fade = require("react-reveal/Fade");
 interface IFormInput {
     email: string;
@@ -12,7 +13,7 @@ interface IFormInput {
 }
 
 export const Contact = () => {
-    const {register, handleSubmit, formState: {errors}} = useForm({
+    const {register, handleSubmit, formState: {errors}, reset} = useForm({
         defaultValues: {
             email: '',
             telephone: '',
@@ -23,10 +24,11 @@ export const Contact = () => {
         console.log(data.message, data.telephone)
         // @ts-ignore
         emailjs.send('service_wx8iwum', 'template_k2vk4bp', data, 'H-30kYTAjSXc5lISG')
-            .then((result) => {
-                console.log(result.text);
+            .then(() => {
+                toast.success(`Thank you ${data.email}`)
+                reset()
             }, (error) => {
-                console.log(error.text);
+                toast.error(error.message)
             });
 
     };

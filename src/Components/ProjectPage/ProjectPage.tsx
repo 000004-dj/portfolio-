@@ -3,30 +3,24 @@ import s from './ProjectPage.module.scss'
 import {Link} from "react-router-dom";
 
 type ProjectType = {
-    photos: any[] | null
-    title: string | null
-    projectId: string
-    projectURL: string
-    projectDescription: string | null
-}
-
-type PropsType = {
-    project: any
-}
+        image?: { [p: string]: string },
+        title?: string,
+        projectDescription?: string,
+        photos?: { [p: string]: string }[],
+        projectURL?: string
+    }
 
 
-export const ProjectPage = (props: PropsType) => {
-    const {title, photos, projectDescription, projectURL}: ProjectType = props.project
-    console.log(props.project)
-    return(
+export const ProjectPage = ({title, photos, projectDescription, projectURL}: ProjectType) => {
+    return (
         <div className={s.projectPageBlock}>
             <p className={s.projectName}>{title}</p>
             <div className={s.images}>
                 {
-                    photos?.map((i: string | undefined, index: React.Key | null | undefined) => {
-                     return <div className={s.itemImage} key={title}>
-                         <img src={i} alt="image not found"/>
-                     </div>
+                    photos?.map((i) => {
+                        return <div className={s.itemImage} key={title}>
+                            <img src={i.toString()} alt="image not found"/>
+                        </div>
                     })
                 }
             </div>
@@ -35,7 +29,7 @@ export const ProjectPage = (props: PropsType) => {
                     {projectDescription}
                 </span>
                 <div>
-                    <Link to={projectURL} className={s.link}>Go to Project</Link>
+                    <Link to={projectURL || ""} className={s.link}>Go to Project</Link>
                 </div>
 
 

@@ -23,18 +23,17 @@ export const Project = () => {
 
     const getProject = () => {
         const projectId = sessionStorage.getItem('projectId')
-        if(projectId === "0_1"){
-            return projectsData[0]
-        }else if(projectId === "0_3"){
-            return projectsData[1]
-        }else if(projectId === "0_4"){
-            return projectsData[2]
-        }else if(projectId === "0_5"){
-            return projectsData[3]
-        }else if(projectId === "0_6"){
-            return projectsData[4]
-        }
+        return {
+            "0_1": projectsData[0],
+            "0_2": projectsData[1],
+            "0_3": projectsData[2],
+            "0_4": projectsData[3],
+            "0_5": projectsData[4],
+            "0_6": projectsData[5],
+        }[projectId || "0_1"]
     }
+
+    let currentProject = getProject()
 
     return (
         <div className={`${containerStyle.flexContainer} ${s.blockContainer}`}>
@@ -56,8 +55,10 @@ export const Project = () => {
                 </Fade>
             })}
             {
-                <Modal children={<ProjectPage
-                    project={getProject()}/>}
+                <Modal children={<ProjectPage title={currentProject?.title}
+                                              projectDescription={currentProject?.projectDescription}
+                                              photos={currentProject?.photos}
+                                              projectURL={currentProject?.projectURL}/>}
                        isOpen={isModalOpen}
                        onClose={handleCloseModal}
                 />
